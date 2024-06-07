@@ -1,0 +1,76 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Arial, sans-serif;
+}
+
+img {
+	height: 90dvh;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bebas-neue-regular {
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.parallax {
+	height: 90dvh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative; /* Necessary to position the text */
+}
+
+.content {
+	height: 10dvh;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0.2rem;
+}
+
+.center-image-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 3rem;
+	color: black;
+}
+
+#image-one {
+	background-image: url('https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/v2/HJCYSMFLVJGOVOPXRDESVH2W6M.JPG?smart=true&auth=cd8138da062fdd2f3a0235b1211733b07a2c04c67afdc55f3f1a14ab4f3ecdf8&width=1000&height=562');
+}
+
+#image-two {
+	background-image: url('https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/v2/VDGSUZTZABBIRLURKLOGZBE5G4.JPG?smart=true&auth=e2a04ea400088b9622b4a163f520c37ee61efcba8a2fa8e3a452b33d6cee08ad&width=1000&height=562');
+}
+
+#image-three {
+	background-image: url('https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/v2/X4YMUNJTX5BODHDUJW5FNFRCN4.JPG?smart=true&auth=9b5e5627dff8788ae3744987f3c5cec731236c1bc88bef92ec38830518513667&width=1000&height=562');
+}
+
+#instagram-link {
+	padding-top: 1rem;
+	padding-bottom: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#instagram-link img {
+	padding-top: 0;
+	padding-bottom: 1.5rem;
+	width: 2rem; /* Adjust the size as needed */
+	height: 2rem; /* Adjust the size as needed */
+}

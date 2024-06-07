@@ -1,0 +1,72 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+img {
+	height: 6dvh;
+	padding: 2dvw;
+}
+
+.card {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	width: 300px;
+	text-align: center;
+}
+
+.card-title {
+	margin-top: 0;
+}
+
+.profile {
+	margin-bottom: 20px;
+}
+
+.profile-picture {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.login {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.description {
+	color: #555;
+	margin: 0;
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 20vh;
+}
+
+.socials a {
+	display: inline-block;
+}
+
+.contact-button {
+	background-color: #007bff;
+	color: black;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.contact-button:hover {
+	background-color: #0056b3;
+}
